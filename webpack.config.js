@@ -23,7 +23,7 @@ module.exports = (webpackConfigEnv, argv) => {
       new ModuleFederationPlugin({
         name: "",
         remotes: {
-          main: 'leftSidebar@https://single-spa-angular-child-app.vercel.app/remoteEntry.js'
+          main: 'leftSidebar@https://singlespangchildapp.z22.web.core.windows.net/remoteEntry.js'
         },
        
       }),
