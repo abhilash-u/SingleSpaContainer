@@ -18,7 +18,7 @@ module.exports = (webpackConfigEnv, argv) => {
     // modify the webpack config however you'd like to by adding to this object
     output: {
   path: path.resolve(__dirname, 'public'), // Change 'dist' to 'public'
-}
+},
     plugins: [
       new ModuleFederationPlugin({
         name: "",
