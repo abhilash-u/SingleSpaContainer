@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  display: none;
+}
+
+.appList {
+  display: none;
+
+}
+
+.appListShow {
+  display: block;
+  list-style-type: none;
+  width: 250px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 59px;
+}
+
+.appListShow li {
+  padding: 15px;
+  background-color: lightblue;
+  border: 1px solid lightslategray;
+}
+
+.appListShow li a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.hamBurger {
+  padding: 15px;
+  background-color: lightblue;
+}
